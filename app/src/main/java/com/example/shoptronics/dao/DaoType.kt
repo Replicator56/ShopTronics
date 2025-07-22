@@ -1,4 +1,6 @@
 package com.example.shoptronics.dao
 
-class DaoType {
+enum class DaoType {
+    MEMORY,
+    NETWORK
 }
